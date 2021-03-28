@@ -1,7 +1,7 @@
 package top.idwangmo.messages;
 
 /**
- * @author idwangmo
+ * @author idwangmo 
  */
 public class ListSequences {
 }

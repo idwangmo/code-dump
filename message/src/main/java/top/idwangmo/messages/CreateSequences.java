@@ -1,18 +1,17 @@
 package top.idwangmo.messages;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
 /**
  * @author idwangmo
  */
-@Getter
-@Setter
-@NoArgsConstructor
 public class CreateSequences {
 
     private String name;
 
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 }
